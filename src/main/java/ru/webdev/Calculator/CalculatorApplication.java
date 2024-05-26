@@ -23,9 +23,9 @@ public class CalculatorApplication {
     public boolean outToConsole() throws Exception {
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Введите число a: ");
+        System.out.println("Введите число a: ");
         double a = in.nextDouble();
-        System.out.print("Введите число b: ");
+        System.out.println("Введите число b: ");
         double b = in.nextDouble();
         System.out.println("Введите тип операции: " + calculator.getSupportedOperations());
         String operationType = in.next();
